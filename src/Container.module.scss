@@ -1,0 +1,25 @@
+.filter {
+    padding: 10px 14px;
+    background-color: chocolate;
+    border-radius: 5px;
+    width: fit-content;
+    color: white;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+
+    @media (min-width: 670px) {
+        justify-content: space-around;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
